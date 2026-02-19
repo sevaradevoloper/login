@@ -7,10 +7,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        {/* "/" yo'lida Login sahifasi chiqadi */}
         <Route path='/' element={<Login />} />
-        
-        {/* "/home" yo'lida Home sahifasi chiqadi */}
         <Route path='/home' element={<Home />} />
       </Routes>
     </BrowserRouter>
